@@ -786,10 +786,7 @@ header {
   .about {
     top: -170px;
   }
-  .headline {
-  }
-  .headline__text {
-  }
+
   .description {
     width: 100%;
     box-sizing: border-box;
@@ -888,89 +885,109 @@ header {
   }
   .main__right {
     width: 100%;
+    gap: 40px;
+    align-self: stretch;
+  }
+  .break {
+    display: none;
   }
   .main__des {
+    color: #fff;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
   }
-  .infor__main__button {
-  }
+
   .frame22 {
+    display: flex;
+    flex-direction: column;
   }
   .frame22__left {
+    order: 1;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
   }
   .buttonFrame22 {
   }
   .frame22__right {
+    order: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .frame22__right img {
+    width: 94%;
   }
   .news {
-    display: none;
+    top: -150px;
   }
   .container {
   }
   .head__News {
+    flex-direction: column;
   }
   .news__list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 30px;
   }
   .news__items {
+    width: 100%;
+    gap: 30px;
   }
-  .footline__main {
-    display: none;
-  }
-  .footline {
-  }
-  .subscribe {
-  }
-  .formSubmit {
-  }
-  .form {
-  }
-  .input {
-  }
-  .buttonSubmit {
-  }
-  .footer {
-    display: none;
-  }
-  .footer__main {
-  }
-  .footer__main__left {
-  }
-  .nav__Top {
-  }
-  .nav__items {
-  }
-  .nav__Bottom {
-  }
-  .footer__main__center {
-  }
-  .footer__brand {
-  }
-  .logo {
-  }
-  .brand__name {
-  }
-  .footer__main__right {
-  }
-  .contact__Top {
-  }
-  .social__icon {
-  }
-  .fa-brands {
-  }
-  .fa-medium {
-  }
-  .fa-solid {
-  }
-  .fa-basketball {
-  }
-  .contact__Bottom {
+  .news__items img {
+    object-fit: cover;
   }
 
-  .fa-behance {
+  .footline {
+    flex-direction: column;
+    gap: 30px;
   }
-  .fa-linkedin-in {
+  .subscribe {
+    width: 100%;
   }
-  .fa-twitter {
+  .formSubmit {
+    width: 100%;
   }
+  .form {
+    width: 100%;
+  }
+  .input {
+    width: 90%;
+  }
+
+  .footer__main {
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .footer__main__left {
+    order: 1;
+  }
+
+  .footer__main__center {
+    position: relative;
+
+    top: 60px;
+    left: 58px;
+    order: 0;
+    /* transform: translate(-50%, -50%); */
+  }
+
+  .footer__main__right {
+    order: 2;
+  }
+  .contact__Top {
+    justify-content: flex-start;
+  }
+
   .footerEnd {
     display: none;
   }
